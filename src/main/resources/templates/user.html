@@ -5,6 +5,21 @@
 	</head>
 	<body>
 		<h1>Olá, <span th:text="${loggedUser}" />!</h1>
+		<h5>Lista de usuarios no banco de dados:</h5>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Username</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="user : ${usersList}">
+					<td><span th:text="${user.id}" /></td>
+					<td><span th:text="${user.username}" /></td>
+				</tr>
+			</tbody>
+		</table>
 		<p><a href="/">Voltar</a></p>
 	</body>
 </html>

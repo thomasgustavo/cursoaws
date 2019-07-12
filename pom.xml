@@ -59,9 +59,8 @@
 		</dependency>
 		
 		<dependency>
-			<!-- REMOVER ESSA DEPENDENCIA BOTAR MYSQL -->
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 	</dependencies>
 
