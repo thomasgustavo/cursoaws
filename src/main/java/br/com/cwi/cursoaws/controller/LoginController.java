@@ -14,9 +14,6 @@ public class LoginController {
 
 	@GetMapping("/")
 	public String homePage(Model model) {
-
-		System.out.println(userRepository.findAll());
-
 		return "login";
 	}
 }
