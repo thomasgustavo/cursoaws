@@ -1,0 +1,8 @@
+CREATE TABLE User (
+	id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+	username VARCHAR(255) NOT NULL,
+	password VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id),
+	UNIQUE INDEX UK_User_user (username)
+)
+;
