@@ -15,7 +15,7 @@ public class UserController {
 	private UserRepository userRepository;
 
 	@GetMapping("/user")
-	public String user(Model model) {
+	public String userPage(Model model) {
 
 		Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
 
