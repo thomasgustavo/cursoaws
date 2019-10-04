@@ -7,3 +7,13 @@ java -DAPP_REDIS_HOST=redis_host \
      -DAPP_DB_PASSWORD=db_password \
      -jar cursoaws.jar
 ```
+
+# Links
+
+## Download
+- https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe
+- https://the.earth.li/~sgtatham/putty/latest/w32/puttygen.exe
+- https://ufpr.dl.sourceforge.net/project/winscp/WinSCP/5.15.4/WinSCP-5.15.4-Portable.zip
+
+## Code deploy agent
+- https://docs.aws.amazon.com/pt_br/codedeploy/latest/userguide/codedeploy-agent-operations-install-linux.html
